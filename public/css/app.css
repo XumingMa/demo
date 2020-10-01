@@ -10916,6 +10916,24 @@ a.text-dark:focus {
   border-bottom: 1px solid #ccc;
 }
 
+.padding-top-bottom-8 {
+  padding-top: 8%;
+  padding-bottom: 8%;
+  background-color: #02709e;
+}
+
+.padding-top-5 {
+  padding-top: 5%;
+}
+
+.bg-color-main {
+  background-color: #02709e;
+}
+
+.text-dashed {
+  text-decoration: underline;
+}
+
 /*!
  * Font Awesome Free 5.15.0 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)

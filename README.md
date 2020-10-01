@@ -16,7 +16,7 @@ mandatory
 - [x] Cancelling the order form should reset all of its fields.
 - [x] The table of Existing Orders has 4 columns: **First Name**, **Last Name**, **Date** (corresponding to Scheduled Date from the Order form), **Status**
 - [x] Statuses can be changed from: Pending, Assigned, On Route, Done, Cancelled
-- [x] Removing an order is permanent, need confirmation firs
+- [x] Removing an order is permanent, need confirmation first
     > **NOTE:** Confirmed, and provided a soft delete feature.
 - [x] *Upon page reload, all of the existing orders are still present*
 - [x] Build Api structure
