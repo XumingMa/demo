@@ -41,7 +41,7 @@
                             <div class="form-group">
                                 <label for="email">Email</label>
                                 <input type="email" class="form-control" name="email" id="email"
-                                    placeholder="you@sample.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
+                                    placeholder="you@sample.com" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$">
                                     <i class="valid-feedback">Looks good!</i>
                                     <i class="invalid-feedback">You can make it empty or input a valid email</i>
 

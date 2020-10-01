@@ -20,7 +20,13 @@ use Illuminate\Support\Facades\Route;
 //     return $request->user();
 // });
 
+/*
 Route::middleware('auth:api')->get('/order', [OrderApiController::class, 'index']);
 Route::middleware('auth:api')->post('/order', [OrderApiController::class, 'store']);
 Route::middleware('auth:api')->delete('/order/{id}', [OrderApiController::class, 'destroy']);
+*/
+
+Route::get('/order', [OrderApiController::class, 'index']);
+Route::post('/order', [OrderApiController::class, 'store']);
+Route::delete('/order/{id}', [OrderApiController::class, 'destroy']);
 

@@ -37326,19 +37326,19 @@ $(function () {
   $.ajaxSetup({
     headers: {
       'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content'),
-      'Accept': 'application/json',
-      'Authorization': 'Bearer sOr8lChGbXn1t1vn70hqqVXfCGFxo3Hfr6nUKN5rSn8t5IflhTRoiskHPztG'
+      'Accept': 'application/json' //'Authorization': 'Bearer sOr8lChGbXn1t1vn70hqqVXfCGFxo3Hfr6nUKN5rSn8t5IflhTRoiskHPztG'
+
     }
   });
+  var today = new Date().toISOString().split('T')[0];
+  $("#schedule-date").attr('min', today);
 });
 
 (function () {
   'use strict';
 
   window.addEventListener('load', function () {
-    // Fetch all the forms we want to apply custom Bootstrap validation styles to
-    var forms = document.getElementsByClassName('order-form'); // Loop over them and prevent submission
-
+    var forms = document.getElementsByClassName('order-form');
     var validation = Array.prototype.filter.call(forms, function (form) {
       form.addEventListener('submit', function (event) {
         if (form.checkValidity() === false) {
@@ -37355,12 +37355,6 @@ $(function () {
               backdrop: false,
               keyboard: false
             });
-          }).fail(function () {//alert( "error" );
-          }).always(function () {//alert( "complete" );
-          }); // Perform other work here ...
-          // Set another completion function for the request above
-
-          jqxhr.always(function () {//alert( "second complete" );
           });
         }
 

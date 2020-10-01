@@ -51,15 +51,18 @@
                                 </li>
                             @endif
                         @else
-
-                            <li class="nav-item active">
-                                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        @php
+                         $path = Request::path();
+                         
+                        @endphp
+                            <li class="nav-item {{ $path == 'home' ? 'active' : '' }}">
+                                <a class="nav-link" href="/home">Home <span class="sr-only">(current)</span></a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">About</a>
+                            <li class="nav-item {{ $path == 'about' ? 'active' : '' }}">
+                                <a class="nav-link" href="/about">About</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Contact</a>
+                            <li class="nav-item {{ $path == 'contact' ? 'active' : '' }}">
+                                <a class="nav-link" href="/contact">Contact</a>
                             </li>
                             <li class="nav-item dropdown">
                                 <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
