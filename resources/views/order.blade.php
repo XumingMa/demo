@@ -216,7 +216,7 @@
               <p id="response-text"></p>
             </div>
             <div class="modal-footer">
-              <button type="button" class="btn btn-primary" onclick="window.location.href=window.location.href;">Ok</button>
+              <button type="button" class="btn btn-primary" onclick="window.location.href='/home';">Ok</button>
             </div>
           </div>
         </div>
