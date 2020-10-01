@@ -15,7 +15,7 @@ class OrderTest extends TestCase
         $order->last_name = "Bing";
         $order->email = "Jean@gmail.com";
         $order->phone = "+1 (438) 233-5532";
-        $order->schedule_date = "2020-09-20";
+        $order->schedule_date = "2020-12-20";
         $order->street_address = "3000 Avenue Jean-Talon, Montreal, Quebec";
         $order->city = "Montreal";
         $order->province = "Quebec";
