@@ -1,10 +1,10 @@
 # .travis.yml
-dist: Trusty
+dist: Bionic
 
 language: php
 
 php:
-  - 7.4.9
+  - 7.4
 
 addons:
   mariadb: 10.4
