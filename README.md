@@ -1,3 +1,6 @@
+
+[![Build Status](https://travis-ci.com/XumingMa/demo.svg?branch=master)](https://travis-ci.com/XumingMa/demo)
+
 # About the demo
 
 This is a order page demo which is developed by Laravel 8 and Bootstrap 4
