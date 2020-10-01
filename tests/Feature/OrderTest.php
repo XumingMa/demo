@@ -40,7 +40,7 @@ class OrderTest extends TestCase
                 'last_name' => 'Bing2',
                 'email' => 'Jean@gmail.com',
                 'phone' => '+1 (438) 233-5532',
-                'schedule_date' => '2020-09-20',
+                'schedule_date' => '2020-12-20',
                 'street_address' => '3000 Avenue Jean-Talon, Montreal, Quebec',
                 'city' => 'Montreal',
                 'province' => 'Quebec',

@@ -14,16 +14,24 @@ composer install
 cp .env.example .env
 
 #change env database connection information
+#you need to create a database in mysql.
+
+#DB_CONNECTION=mysql
+#DB_HOST=127.0.0.1
+#DB_PORT=3306
+#DB_DATABASE=cigotest
+#DB_USERNAME=cigouser
+#DB_PASSWORD=cigopass
 
 php artisan key:generate
 
 php artisan migrate
 
-php artisan test
-
 php artisan serve
+
+php artisan test
 
 #Open localhost:8000
 ```
-[Quickly vist online demo](http://cigo.mars.pub)
 
+[Quickly vist online demo](http://cigo.mars.pub)
