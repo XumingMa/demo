@@ -65,7 +65,7 @@ return [
         'testing' => [
             'driver' => 'mysql',
             'host' => env('DB_TEST_HOST', 'localhost'),
-            'database' => env('DB_TEST_DATABASE', 'testing_db'),
+            'database' => env('DB_TEST_DATABASE', 'cigotest'),
             'username' => env('DB_TEST_USERNAME', 'root'),
             'password' => env('DB_TEST_PASSWORD', 'secret'),
             'charset' => 'utf8',
